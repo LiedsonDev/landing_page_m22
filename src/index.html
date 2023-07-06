@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aniversário</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./styles/main.scss">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+</head>
+<body>
+    <header class="hero">
+        <div class="container">
+            <img class="hero__logo" src="images/logo.png" alt="Balões de aniversário">
+            <p class="hero__text">
+                Este é um convite para o meu aniversário, ele ocorrerá em <span id="contador"></span>
+            </p>
+            <div class="infos-bar">
+                <ul class="infos-bar__infos">
+                    <li class="infos-bar__infos__item">
+                        <b>Localização</b>
+                        Minha residência
+                    </li>
+                    <li class="infos-bar__infos__item">
+                        <b>Preço</b>
+                        A partir de R$ 00,00
+                    </li>
+                    <li class="infos-bar__infos__item">
+                        <b>Data</b>
+                        09/07/2023
+                    </li>
+                </ul>
+                <a href="#" class="button button--primary">
+                    Confirme sua presença
+                </a>
+            </div>
+        </div>
+    </header>
+    <section class="event event--cake">
+        <div class="container" data-aos="fade-right">
+            <div class="event__details">
+                <h2 class="event__details__title">Teremos bolo</h2>
+                <p class="event__details__description">
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Obcaecati sit, temporibus cumque ducimus, architecto maxime laboriosam doloribus sint dolorum tempora porro. Soluta commodi necessitatibus inventore consectetur quos earum, excepturi maiores.
+                </p>
+            </div>
+            <img class="event__image" src="images/bolo.png" alt="Bolo">
+        </div>
+    </section>
+    <section class="event event--sweeties event--image-left">
+        <div class="container" data-aos="fade-left">
+            <div class="event__details">
+                <h2 class="event__details__title">Teremos docinhos</h2>
+                <p class="event__details__description">
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Obcaecati sit, temporibus cumque ducimus, architecto maxime laboriosam doloribus sint dolorum tempora porro. Soluta commodi necessitatibus inventore consectetur quos earum, excepturi maiores.
+                </p>
+            </div>
+            <img class="event__image" src="images/docinhos.png" alt="Docinhos">
+        </div>
+    </section>
+    <section class="event event--balloons">
+        <div class="container" data-aos="fade-right">
+            <div class="event__details">
+                <h2 class="event__details__title">Teremos balões</h2>
+                <p class="event__details__description">
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Obcaecati sit, temporibus cumque ducimus, architecto maxime laboriosam doloribus sint dolorum tempora porro. Soluta commodi necessitatibus inventore consectetur quos earum, excepturi maiores.
+                </p>
+            </div>
+            <img class="event__image" src="images/baloes.png" alt="Balões">
+        </div>
+    </section>
+    <section class="event event--presents event--image-left">
+        <div class="container" data-aos="fade-left">
+            <div class="event__details">
+                <h2 class="event__details__title">Aceito presentes</h2>
+                <p class="event__details__description">
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Obcaecati sit, temporibus cumque ducimus, architecto maxime laboriosam doloribus sint dolorum tempora porro. Soluta commodi necessitatibus inventore consectetur quos earum, excepturi maiores.
+                </p>
+            </div>
+            <img class="event__image" src="images/pinguim_com_presente.png" alt="Pinguim com presentes">
+        </div>
+    </section>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="scripts/main.js"></script>
+</body>
+</html>
